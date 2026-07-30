@@ -8,7 +8,7 @@ int main(){
     n=b.length() ;
     if (a==10){
         for (int i=0 ;i<=n-1 ;i++){
-            d+=pow(b[i]-48,n) ;
+            d+=pow(b[i]-48,n) ;   //pow(底數,指數)
         }
         ss<<b ;
         ss>>e ;
